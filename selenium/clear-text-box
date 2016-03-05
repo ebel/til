@@ -1,0 +1,9 @@
+# Clear data from a text box when interating through a list of values.
+
+Sometimes when testing validation, you need to clear text boxes before you insert next values.
+
+This does it:
+    driver.find_element_by_id('foo').clear()
+    
+[Clear data from a text box](https://stackoverflow.com/questions/7732125/clear-text-from-textarea-with-selenium)
+

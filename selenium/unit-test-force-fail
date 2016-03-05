@@ -1,0 +1,13 @@
+# Force fail when something does not go right
+
+Often times when creating functional tests, I want to force the failure of a test if an element is not found.
+
+This does it for me:
+
+    try:
+        login_error_text = WebDriverWait(self.browser, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "has-error")))
+    except TimeoutException, e:
+        self.fail("Could not find error classname in html")
+
+SO Link:
+[fail on purpose if something does not go right](https://stackoverflow.com/questions/4319825/python-unittest-opposite-of-assertraises)
