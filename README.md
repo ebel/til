@@ -44,7 +44,7 @@ _4 TILs and counting..._
 
 ### C
 
-- [Basics: Symbolic Constants](C/symbolic-constants.md)
+* [Basics: Symbolic Constants](C/symbolic-constants.md)
 
 ### django
 
@@ -66,8 +66,8 @@ _4 TILs and counting..._
 
 ### selenium
 
-- [Clear data from a text box ](selenium/clear-text-box.md)
-- [Explicitly force fail of a unittest](unit-test-force-fail.md)
+* [Clear data from a text box ](selenium/clear-text-box.md)
+* [Explicitly force fail of a unittest](unit-test-force-fail.md)
 
 ### vagrant
 
@@ -79,8 +79,8 @@ _4 TILs and counting..._
 ## About
 
 I shamelessly stole this idea from
-[thoughtbot/til](https://github.com/thoughtbot/til).
-[jbranchaud](https://github.com/jbranchaud/til).
+* [thoughtbot/til](https://github.com/thoughtbot/til).
+* [jbranchaud](https://github.com/jbranchaud/til).
 
 
 ## Other TIL Collections
