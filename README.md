@@ -44,7 +44,7 @@ _4 TILs and counting..._
 
 ### C
 
-* [Basics: Symbolic Constants](C/symbolic-constants.md)
+* [Basics: Symbolic Constants](c/symbolic-constants.md)
 
 ### django
 
