@@ -26,4 +26,10 @@
   * apiVersion line is malformed.
 * `Error while dialing dial tcp 127.0.0.1:23000: connect:connection refused`
   * Port on `--etcd-servers=` is wrong. should be `2379`
+
+### Check deployments logs
+* `k -n management logs deploy/<deployment-name> -c <container-name> >> /root/logs.log`
+
+### Misc
+* Use kubectl -h for command line examples
 * 
